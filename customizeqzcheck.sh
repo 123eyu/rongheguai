@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-#by spiritlhl
-#from https://github.com/spiritLHLS/ecs
+
 
 ver="2023.06.27"
-changeLog="IP质量测试，由频道 https://t.me/vps_reviews 原创"
+changeLog="IP质量测试，Everyone is very happy"
 
 red() {
     echo -e "\033[31m\033[01m$1\033[0m"
