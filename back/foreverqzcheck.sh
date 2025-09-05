@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-#by spiritlhl
-#from https://github.com/spiritLHLS/ecs
 
 
 ver="2023.04.14"
