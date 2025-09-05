@@ -1,7 +1,5 @@
 #!/bin/bash
-# by https://github.com/spiritLHLS/ecs
-# by spiritlhls
-# 2023.04.12
+
 
 # determine architecture of host
 ARCH=$(uname -m)
