@@ -57,7 +57,7 @@ os=$(uname -s)
 arch=$(uname -m)
 
 print_intro() {
-    echo "-------------------- A Bench Script By spiritlhl ---------------------"
+    echo "-------------------- Everyone is very happy ---------------------"
     echo "                   OLDFish                    "
     echo "版本：$ver"
     echo "更新日志：$changeLog"
