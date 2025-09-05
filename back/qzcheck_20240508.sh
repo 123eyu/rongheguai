@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-#by spiritlhl
-#from https://github.com/spiritLHLS/ecs
+
 
 cd /root >/dev/null 2>&1
 myvar=$(pwd)
