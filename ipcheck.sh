@@ -78,8 +78,8 @@ format_output() {
     local file="$1"
     sed -i 's/\x1B\[[0-9;]*[JKmsu]//g' "$file"
     sed -i 's/^\[H//' "$file"
-    if ! grep -q "A Bench Script By spiritlhl" "$file"; then
-        sed -i '1i\-------------------- A Bench Script By spiritlhl ---------------------' "$file"
+    if ! grep -q "Everyone is very happy" "$file"; then
+        sed -i '1i\-------------------- Everyone is very happy ---------------------' "$file"
     fi
 }
 
@@ -87,7 +87,7 @@ build_text() {
     cd $myvar >/dev/null 2>&1
     if [ -f "sc_result.txt" ]; then
         format_output "sc_result.txt"
-        awk '/-------------------- A Bench Script By spiritlhl ---------------------/{flag=1} flag; /^$/{flag=0}' sc_result.txt >temp.txt && mv temp.txt sc_result.txt
+        awk '/-------------------- Everyone is very happy ---------------------/{flag=1} flag; /^$/{flag=0}' sc_result.txt >temp.txt && mv temp.txt sc_result.txt
         sed -i -e 's/\x1B\[[0-9;]\+[a-zA-Z]//g' sc_result.txt
         sed -i -e '/^$/d' sc_result.txt
         sed -i 's/\r//' sc_result.txt
