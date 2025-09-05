@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# by spiritlhl
-# from https://github.com/spiritLHLS/ecs
-# orgin https://github.com/masonr/yet-another-bench-script/blob/master/yabs.sh
+
 
 # override locale to eliminate parsing errors (i.e. using commas as delimiters rather than periods)
 if locale -a | grep ^C$ > /dev/null ; then
