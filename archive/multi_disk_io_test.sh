@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-# by spiritlhl
-# from https://github.com/spiritLHLS/ecs
-# curl -L https://raw.githubusercontent.com/spiritLHLS/ecs/main/archive/multi_disk_io_test.sh -o mdit.sh && chmod +x mdit.sh && bash mdit.sh
-# 2024.07.06
 
 myvar=$(pwd)
 export DEBIAN_FRONTEND=noninteractive
